@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST}  !^www\.stackuniversal\.com$ [NC]
+RewriteRule ^(.*) https://stackuniversal.com/$1 [L,R]
