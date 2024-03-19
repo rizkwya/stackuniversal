@@ -3,6 +3,8 @@
     src: url("https://assets.codepen.io/605876/GeistVF.ttf") format("truetype");
 }
 
+*,*:before,*:after{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent}
+
 *,
 *:after,
 *:before {
